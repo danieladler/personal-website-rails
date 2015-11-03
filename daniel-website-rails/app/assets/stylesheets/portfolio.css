@@ -10,16 +10,7 @@ body {
 
 .header-portfolio {
   position: absolute;
-  top: 0;
-  right: 283px;
-}
-
-.header-portfolio>.header-container {
-  margin: 0 auto;
-  width: 800px;
-  font-size: 96px;
-  color:rgb(255, 255, 255);
-  font-family: "Print Dashed";
+  width: 100%
 }
 
 a:link {
@@ -63,8 +54,7 @@ section.module:last-child {
 section.module h3 {
   margin-bottom: 40px;
   padding-left: 5px;
-  font-family:
-  font-size:
+  margin-top: 0;
 }
 
 section.module p {
@@ -80,6 +70,7 @@ section.module p:last-child {
 
 section.module.content {
   padding: 0 0 60px 0;
+  margin-top: 20px;
 }
 
 section.module.parallax {
@@ -96,7 +87,8 @@ section.module.parallax h1 {
   font-size: 66px;
   text-align: left;
   position: absolute;
-  top: 479px;
+  top: 480px;
+  margin-bottom: 0;
 }
 
 section.module.parallax.parallax-1 h1 {
