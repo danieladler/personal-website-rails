@@ -1,0 +1,64 @@
+html .about {
+  background: url("/assets/grass-opaque.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+}
+
+.content {
+  margin: 0 auto;
+  margin-top: 11vh;
+  max-width: 1075px;
+  width: 100%;
+  }
+
+.content:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.content-left-container {
+  /*margin: 0 auto;*/
+  /*height: 400px;*/
+  width: 30%;
+  margin-left: 0;
+  /*text-align: center;*/
+  float: left;
+}
+
+.content-left-container:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/*.profile-photo {
+  height: 400px;
+  width: auto;
+}*/
+
+.content-right-container {
+  /*position: relative;*/
+  margin: 0 auto;
+  padding: 20px 11px 0 0 ;
+  /*height: auto;*/
+  width: 70%;
+  /*text-align: center;*/
+  /*display: inline-block;*/
+  text-align: right;
+  /*text-shadow: 1px 0px 0px;*/
+  float: right;
+}
+
+.content-right-container .p1 {
+  margin-left: 50px;
+}
+
+.content-right-container .p2 {
+  margin-left: 150px;
+}
