@@ -27,34 +27,26 @@
 	z-index: -1;
 }
 
-/*.bg.backup-bg {
-	background-color: yellow;
-	/*min-height: 2000px;
-}*/
-
 body {
   margin: 0;
   font-family: "Avenir Next";
-  font-size: 18px;
+  font-size: 		18px;
 }
 
 .header {
 	height: 96px;
-  /*z-index: 3;
-  position: relative;*/
 }
 
 .header-container {
-  margin: 0 auto;
-  width: 800px;
-  font-size: 96px;
-  /*text-align: center;*/
-  color:rgb(255, 255, 255);
+  margin: 	 		0 auto;
+  width: 	   		800px;
+  font-size: 		96px;
+  color:		 		rgb(255, 255, 255);
   font-family: "Print Dashed";
 }
 
 a:link {
-  color: white;
+  color: 					white;
   text-decoration: none;
 }
 
@@ -64,102 +56,77 @@ a:visited {
 
 .header-container .dadler{
   position: relative;
-  left: 180px;
+  left: 		180px;
 }
 
 .header-container .page {
   position: relative;
-  left: 170px;
-}
-
-.content{
+  left: 		170px;
 }
 
 .footer {
-  bottom: 15px;
+  bottom: 	15px;
   position: fixed;
-  width: 100%;
-  height: 70px;
-  /*background-color: rgba(22, 162, 244, 0.53);*/
+  width: 		100%;
+  height: 	70px;
   background-color: rgba(22, 162, 244, 0.53);
 }
 
-.footer.footer-about {
-  background-color: rgba(22, 162, 244, 0.65);
-}
-
 .footer-main-container {
-  margin: 0 auto;
+  margin:  0 auto;
   padding: 0;
-  width: 1100px;
-  height: 70px;
+  width: 	 1100px;
+  height:  70px;
 }
 
 .footer-main-container .footer-left-container{
-  float: left;
+  float: 	 left;
   display: inline-block;
-  width: 400px;
-  height: 70px;
-  margin: 0 auto;
+  width: 	 400px;
+  height:  70px;
+  margin:  0 auto;
   padding: 0;
 }
 
 .footer .icon {
-  width: 30px;
-  margin-top: 19px;
+  width: 				 30px;
+  margin-top:    19px;
   margin-bottom: 19px;
-  padding: 0 6.5px;
-  opacity: 0.9;
-}
-
-.footer a {
-  text-decoration: none;
+  padding: 			 0 6.5px;
+  opacity: 			 0.9;
 }
 
 .footer-main-container .footer-right-container{
-  float: right;
-  display: inline-block;
-  width: 400px;
-  height: 70px;
-  margin: 0 auto;
-  padding: 0;
+  float: 		right;
+  display: 	inline-block;
+  width: 		400px;
+  height: 	70px;
+  margin: 	0 auto;
+  padding: 	0;
 }
 
 .footer-links {
-  height: 70px;
-  margin: 0;
+  height: 	70px;
+  margin: 	0;
   position: relative;
-  /*left: 120px;*/
-  padding: 0;
-  float: right;
+  padding: 	0;
+  float: 		right;
 }
 
 .footer-links li {
-  display: inline-block;
+  display: 		inline-block;
   list-style: none;
   text-align: center;
 }
 
 .footer-links li a {
-  display: inline-block;
-  /*height: 70px;*/
-  padding: 20px 26px;
-  /*padding-top: 13px;
-  padding-bottom: 0;*/
+  display: 		inline-block;
+  padding: 		18.5px 26px;
   text-align: center;
-  font-family: "Avenir Next";
-  font-size: 24px;
-  color: white;
+  font-size: 	24px;
+  color: 			white;
 }
 
 .footer-links li a:hover{
   background-color: rgba(255, 255, 255, 0.33);
-}
-
-body .about {
-  background-color: white;
-}
-
-.header .about {
-
 }
