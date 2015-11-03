@@ -5,10 +5,13 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link rel="shortcut icon" type="image/ico" href="/assets/favicon.ico" />
 </head>
 <body>
 
-<%= yield %>
+  <div class="wrapper">
+    <%= yield %>
+  </div>
 
 </body>
 </html>
