@@ -5,6 +5,7 @@ class HomeController < ApplicationController
     @bg          = "bg"
     @header      = "header"
     @header_page = "codes"
+    @footer      = "footer"
   end
 
   def about
@@ -12,11 +13,14 @@ class HomeController < ApplicationController
     @bg          = "bg bg-opaque"
     @header      = "header"
     @header_page = "is:"
+    @footer      = "footer footer-about"
+
   end
 
   def portfolio
     @title       = "Portfolio"
     @header      = "header-portfolio"
     @header_page = "did:"
+    # @footer      =
   end
 end
