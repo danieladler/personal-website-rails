@@ -14,13 +14,12 @@ class HomeController < ApplicationController
     @header      = "header"
     @header_page = "is:"
     @footer      = "footer footer-about"
-
   end
 
   def portfolio
     @title       = "Portfolio"
     @header      = "header-portfolio"
     @header_page = "did:"
-    # @footer      =
+    @footer      = "footer footer-portfolio"
   end
 end

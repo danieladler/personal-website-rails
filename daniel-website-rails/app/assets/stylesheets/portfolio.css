@@ -58,6 +58,10 @@ section.module.content {
   margin-top: 20px;
 }
 
+section.module.content:last-child {
+  padding-bottom: 40px;
+}
+
 section.module.parallax {
   height: 600px;
   background-position: 50% 50%;
@@ -91,4 +95,10 @@ section.module.parallax-2 {
 
 section.module.parallax-3 {
   background-image: url("/assets/cat.jpg");
+}
+
+.footer.footer-portfolio {
+  position: static;
+  margin-bottom: 15px;
+  background-color: rgba(22, 162, 244, 0.65);
 }
