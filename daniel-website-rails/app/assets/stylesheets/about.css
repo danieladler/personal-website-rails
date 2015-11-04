@@ -40,6 +40,15 @@
   margin-left: 150px;
 }
 
+.content-right-container a {
+  color: black;
+  font-weight: bold;
+}
+
+.content-right-container a:visited {
+  color: black;
+}
+
 .footer.footer-about {
   background-color: rgba(22, 162, 244, 0.65);
 }
