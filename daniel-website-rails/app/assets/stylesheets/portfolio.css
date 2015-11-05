@@ -3,12 +3,12 @@
   width: 100%
 }
 
-a:link {
+.header-portfolio a:link {
   color: white;
   text-decoration: none;
 }
 
-a:visited {
+.header-portfolio a:visited {
   color: white;
 }
 
@@ -53,6 +53,15 @@ section.module p:last-child {
   margin-bottom: 0;
 }
 
+section.module a:link {
+  color: black;
+  font-weight: bold;
+}
+
+section.module a:visited {
+  color: black;
+}
+
 section.module.content {
   padding: 0 0 60px 0;
   margin-top: 20px;
@@ -69,6 +78,10 @@ section.module.parallax {
   background-attachment: fixed;
   background-size: cover;
   /*why is 'cover' not orange?*/
+}
+
+section.module.parallax:last-child {
+  /*background-position: 50% -37%;*/
 }
 
 section.module.parallax h1 {
@@ -90,12 +103,14 @@ section.module.parallax-1 {
 }
 
 section.module.parallax-2 {
-  background-image: url("/assets/balloons.jpg");
+  background-image: url("/assets/bibiflip-lo.jpg");
 }
 
 section.module.parallax-3 {
-  background-image: url("/assets/cat.jpg");
+  background-image: url("/assets/soapbox.jpg");
+  background-position: 50% -37%;
 }
+
 
 .footer.footer-portfolio {
   position: static;
