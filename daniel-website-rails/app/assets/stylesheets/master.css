@@ -90,10 +90,12 @@ a:visited {
 
 .footer .icon {
   width: 				 30px;
-  margin-top:    19px;
-  margin-bottom: 19px;
-  padding: 			 0 6.5px;
+	padding: 			 19px 6.5px;
   opacity: 			 0.9;
+}
+
+.footer-left-container img:hover {
+	background-color: rgba(255, 255, 255, 0.33);
 }
 
 .footer-main-container .footer-right-container{
