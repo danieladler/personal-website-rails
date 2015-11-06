@@ -97,16 +97,16 @@ section.module.parallax.parallax-1 h1 {
 }
 
 section.module.parallax-1 {
-  background-image: url("/assets/grass.jpg");
+  background-image: image-url("grass.jpg");
   height: 500px;
 }
 
 section.module.parallax-2 {
-  background-image: url("/assets/bibiflip-lo.jpg");
+  background-image: image-url("bibiflip-lo.jpg");
 }
 
 section.module.parallax-3 {
-  background-image: url("/assets/soapbox.jpg");
+  background-image: image-url("soapbox.jpg");
   background-position: 50% -37%;
 }
 
